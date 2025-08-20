@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ClientId",
+    "value": "1D47FA67BBAD4C88B9B0505FFBEBB8D5",
+    "domain": "outlook.office.com",
+    "path": "/",
+    "expires": 1787245996.256844,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "msal.cache.encryption",
+    "value": "%7B%22id%22%3A%220198c878-7a62-79fb-8de4-2e8873e7cdb0%22%2C%22key%22%3A%22m8Ui6Ssvhm9bZdjBx5HWTEL_X0j4gcra0gnlGjBlm7c%22%7D",
+    "domain": "outlook.office.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  }
+]

@@ -1,0 +1,137 @@
+2025-08-20 22:12:19,700 - INFO - Initialized agent with Gmail provider
+2025-08-20 22:12:19,701 - INFO - Executing task: Send email to alice@example.com
+2025-08-20 22:12:30,020 - INFO - Browser console: [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2025-08-20 22:12:30,030 - INFO - Browser console: %c%s color: red; background: yellow; font-size: 24px; WARNING!
+2025-08-20 22:12:30,032 - INFO - Browser console: %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.
+2025-08-20 22:12:31,503 - INFO - Authentication required
+2025-08-20 22:12:31,504 - INFO - Starting authentication process...
+2025-08-20 22:12:40,743 - INFO - Browser console: [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2025-08-20 22:12:40,758 - INFO - Browser console: %c%s color: red; background: yellow; font-size: 24px; WARNING!
+2025-08-20 22:12:40,759 - INFO - Browser console: %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand.
+2025-08-20 22:12:49,645 - WARNING - Authentication error: Target page, context or browser has been closed
+=========================== logs ===========================
+waiting for navigation to "**/mail/u/**" until 'load'
+  navigated to "https://accounts.google.com/v3/signin/rejected?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&dsh=S-533495834%3A1755709959114581&emr=1&epd=Ac4X3_U3fFySUo3PlL7eDJ7USTzug6FdAkfJtAexTIUzZk5Lm0yuRSio2w&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AdBytiM3Gy5e8LjyVXB8feb_D7SLkbGIPPCFlA8cH0C2SG94uQNDCKFTm4Vl42TjbSInKo0fyUfS&osid=1&rhlk=le&rrk=46&service=mail"
+  navigated to "https://workspace.google.com/intl/en-US/gmail/"
+  navigated to "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AdBytiOWbEW1sJGdXISdRnl9sKAdGOo6xX4qOvY4jWXQSEqIzDgWmyxbmqLTzDaN_ItLxas7souF&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1022713934%3A1755709970267216"
+  navigated to "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AdBytiOWbEW1sJGdXISdRnl9sKAdGOo6xX4qOvY4jWXQSEqIzDgWmyxbmqLTzDaN_ItLxas7souF&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1022713934%3A1755709970267216"
+  navigated to "https://accounts.google.com/v3/signin/rejected?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&dsh=S-1022713934%3A1755709970267216&epd=Ac4X3_W_3oM9tLlgK084DDqEJ-7MY9maOFGMaTXWmkfSDLh7VVPYtNYQWQ&flowEntry=ServiceLogin&flowName=GlifWebSignIn&idnf=bilalft05&ifkv=AdBytiOWbEW1sJGdXISdRnl9sKAdGOo6xX4qOvY4jWXQSEqIzDgWmyxbmqLTzDaN_ItLxas7souF&rhlk=le&rip=1&rrk=46&service=mail"
+============================================================
+2025-08-20 22:12:49,646 - WARNING - Manual login required. Please complete authentication.
+2025-08-20 22:13:13,683 - INFO - Initialized agent with Outlook provider
+2025-08-20 22:13:13,683 - INFO - Executing task: Send email to bob@test.com
+2025-08-20 22:13:15,643 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:13:16,789 - INFO - Browser console: BSSO Telemetry: {"result":"Error","error":"NoExtension","type":"ChromeSsoTelemetry","data":{},"traces":["BrowserSSO Initialized","Creating ChromeBrowserCore provider","Sending message for method CreateProviderAsync","Received message for method CreateProviderAsync","Error: ChromeBrowserCore error NoExtension: Extension is not installed."]}
+2025-08-20 22:13:17,196 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:13:17,222 - INFO - Authentication required
+2025-08-20 22:13:17,222 - INFO - Starting authentication process...
+2025-08-20 22:13:17,228 - INFO - Authentication successful - reached main interface
+2025-08-20 22:13:17,239 - INFO - Saved session cookies for 1 domains
+2025-08-20 22:13:17,240 - INFO - Step 1/10: click compose_button
+2025-08-20 22:13:20,505 - INFO - Browser console: true
+2025-08-20 22:13:20,505 - INFO - Browser console: Storage access: true
+2025-08-20 22:13:20,884 - INFO - Browser console: [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2025-08-20 22:13:37,874 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:13:39,080 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:13:42,423 - INFO - Browser console: Refused to load the script 'https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js' because it violates the following Content Security Policy directive: "script-src 'nonce-NbWh3niCjky+9kXA7h5jbw==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:13:42,423 - INFO - Browser console: Refused to load the script 'https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js' because it violates the following Content Security Policy directive: "script-src 'nonce-NbWh3niCjky+9kXA7h5jbw==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:13:42,683 - INFO - Browser console: Refused to load the script 'https://adsdkprod.azureedge.net/assets/scripts/om/omid-verification-client-v1.js' because it violates the following Content Security Policy directive: "script-src 'nonce-NbWh3niCjky+9kXA7h5jbw==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:13:42,801 - INFO - Browser console: Refused to load the script 'https://adsdkprod.azureedge.net/assets/scripts/om/omid-verification-client-v1.js' because it violates the following Content Security Policy directive: "script-src 'nonce-NbWh3niCjky+9kXA7h5jbw==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:13:43,742 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:13:45,615 - INFO - Browser console: Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+vNextContactCard, accdb16_png, accdb16_svg, accdb16_1.5x_png, accdb16_1.5x_svg, accdb16_2x_png, accdb16_3x_png, accdb16_4x_png, aipage16_png, aipage16_svg (+ 4527 more)
+2025-08-20 22:13:54,986 - INFO - Browser console: Refused to load the script 'https://adsdkprod.azureedge.net/assets/scripts/om/omid-verification-client-v1.js' because it violates the following Content Security Policy directive: "script-src 'nonce-NbWh3niCjky+9kXA7h5jbw==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:13:55,635 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:13:58,933 - INFO - Browser console: Access to fetch at 'https://outlook.office365.com/autodiscover/autodiscover.json/v1.0/outlook_163FDF5628B72A58@outlook.com?Protocol=Actions' from origin 'https://outlook.live.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+2025-08-20 22:13:58,933 - INFO - Browser console: Failed to load resource: net::ERR_FAILED
+2025-08-20 22:13:59,855 - INFO - Browser console: Failed to load resource: the server responded with a status of 401 ()
+2025-08-20 22:14:00,625 - INFO - Browser console: Access to fetch at 'https://roaming.officeapps.live.com/rs/v1/settings?rs=en-US' from origin 'https://outlook.live.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+2025-08-20 22:14:00,626 - INFO - Browser console: Failed to load resource: net::ERR_FAILED
+2025-08-20 22:14:21,812 - INFO - Error checking selector //button[@aria-label='New message']: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("//button[@aria-label='New message']").first to be visible
+
+2025-08-20 22:14:21,814 - INFO - Error checking selector //div[contains(@class, 'ms-Button') and contains(., 'New message')]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:21,816 - INFO - Error checking selector [data-testid='new-mail-button']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:21,818 - INFO - No clickable element found (attempt 1/3)
+2025-08-20 22:14:23,824 - INFO - Error checking selector button[title='New message']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:23,826 - INFO - Error checking selector //button[contains(.,'New message') and not(contains(.,'chat'))]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:23,828 - INFO - Error checking selector //button[@aria-label='New message']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:23,830 - INFO - Error checking selector //div[contains(@class, 'ms-Button') and contains(., 'New message')]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:23,832 - INFO - Error checking selector [data-testid='new-mail-button']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:23,832 - INFO - No clickable element found (attempt 2/3)
+2025-08-20 22:14:25,849 - INFO - Error checking selector button[title='New message']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:25,851 - INFO - Error checking selector //button[contains(.,'New message') and not(contains(.,'chat'))]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:25,852 - INFO - Error checking selector //button[@aria-label='New message']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:25,854 - INFO - Error checking selector //div[contains(@class, 'ms-Button') and contains(., 'New message')]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:25,857 - INFO - Error checking selector [data-testid='new-mail-button']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:14:25,859 - INFO - No clickable element found (attempt 3/3)
+2025-08-20 22:14:27,870 - WARNING - Critical step failed: click compose_button
+2025-08-20 22:14:27,870 - WARNING - Task failed to complete
+2025-08-20 22:14:27,871 - ERROR - Task execution failed: Page.screenshot: Target page, context or browser has been closed
+2025-08-20 22:20:08,423 - INFO - Initialized agent with Outlook provider
+2025-08-20 22:20:08,423 - INFO - Executing task: Send email to shksaad029@gmail.com
+2025-08-20 22:20:09,387 - INFO - Loaded 2 session cookies
+2025-08-20 22:20:10,374 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:20:11,846 - INFO - Browser console: BSSO Telemetry: {"result":"Error","error":"NoExtension","type":"ChromeSsoTelemetry","data":{},"traces":["BrowserSSO Initialized","Creating ChromeBrowserCore provider","Sending message for method CreateProviderAsync","Received message for method CreateProviderAsync","Error: ChromeBrowserCore error NoExtension: Extension is not installed."]}
+2025-08-20 22:20:12,179 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:20:12,216 - INFO - Step 1/10: click compose_button
+2025-08-20 22:20:15,834 - INFO - Browser console: true
+2025-08-20 22:20:15,835 - INFO - Browser console: Storage access: true
+2025-08-20 22:20:16,215 - INFO - Browser console: [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o
+2025-08-20 22:20:28,672 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:20:29,877 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:20:32,691 - INFO - Browser console: Refused to load the script 'https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js' because it violates the following Content Security Policy directive: "script-src 'nonce-v9JCG9b2Xy6x9o4LqQXp3w==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:20:32,734 - INFO - Browser console: Refused to load the script 'https://js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js' because it violates the following Content Security Policy directive: "script-src 'nonce-v9JCG9b2Xy6x9o4LqQXp3w==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:20:32,883 - INFO - Browser console: Refused to load the script 'https://adsdkprod.azureedge.net/assets/scripts/om/omid-verification-client-v1.js' because it violates the following Content Security Policy directive: "script-src 'nonce-v9JCG9b2Xy6x9o4LqQXp3w==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:20:32,958 - INFO - Successfully clicked: button[aria-label='New mail']
+2025-08-20 22:20:32,959 - INFO - Browser console: Refused to load the script 'https://adsdkprod.azureedge.net/assets/scripts/om/omid-verification-client-v1.js' because it violates the following Content Security Policy directive: "script-src 'nonce-v9JCG9b2Xy6x9o4LqQXp3w==' *.res.office365.com *.fluidpreview.office.net *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft wss://*.delve.office.com:443 shellprod.msocdn.com amcdn.msauth.net amcdn.msftauth.net *.skype.com *.skypeassets.com *.delve.office.com *.cdn.office.net *.df.onecdn.static.microsoft *.public.onecdn.static.microsoft static.teams.microsoft.com teams.microsoft.com cdn.forms.office.net content.lifecycle.office.net blob: 'report-sample' 'self' 'wasm-unsafe-eval' acdn.adnxs.com cdn.adnxs.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback.
+
+2025-08-20 22:20:33,676 - INFO - Browser console: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+2025-08-20 22:20:33,961 - INFO - Step 2/10: wait page_load
+2025-08-20 22:20:37,568 - INFO - Browser console: Some icons were re-registered. Applications should only call registerIcons for any given icon once. Redefining what an icon is may have unintended consequences. Duplicates include: 
+vNextContactCard, accdb16_png, accdb16_svg, accdb16_1.5x_png, accdb16_1.5x_svg, accdb16_2x_png, accdb16_3x_png, accdb16_4x_png, aipage16_png, aipage16_svg (+ 4527 more)
+2025-08-20 22:20:38,635 - INFO - Browser console: Access to fetch at 'https://roaming.officeapps.live.com/rs/v1/settings?rs=en-US' from origin 'https://outlook.live.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+2025-08-20 22:20:38,635 - INFO - Browser console: Failed to load resource: net::ERR_FAILED
+2025-08-20 22:20:39,986 - INFO - Step 3/10: fill to_field
+2025-08-20 22:20:50,775 - INFO - Browser console: Access to fetch at 'https://outlook.office365.com/autodiscover/autodiscover.json/v1.0/outlook_163FDF5628B72A58@outlook.com?Protocol=Actions' from origin 'https://outlook.live.com' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+2025-08-20 22:20:50,776 - INFO - Browser console: Failed to load resource: net::ERR_FAILED
+2025-08-20 22:20:51,717 - INFO - Browser console: Failed to load resource: the server responded with a status of 401 ()
+2025-08-20 22:20:53,606 - INFO - Browser console: Failed to load resource: the server responded with a status of 404 ()
+2025-08-20 22:22:32,441 - INFO - Error checking selector //input[contains(@placeholder,'Start typing a name')]: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("//input[contains(@placeholder,'Start typing a name')]").first to be visible
+
+2025-08-20 22:22:32,444 - INFO - Error checking selector .ms-BasePicker-input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:32,447 - INFO - Error checking selector [data-testid='To'] input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:32,451 - INFO - Error checking selector div[aria-label='To'] input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:32,452 - INFO - No fillable element found (attempt 1/3)
+2025-08-20 22:22:34,463 - INFO - Error checking selector input[aria-label='To']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:34,465 - INFO - Error checking selector input[aria-describedby*='To']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:34,467 - INFO - Error checking selector //input[contains(@aria-label,'To')]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:34,469 - INFO - Error checking selector //input[contains(@placeholder,'Start typing a name')]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:34,470 - INFO - Error checking selector .ms-BasePicker-input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:34,472 - INFO - Error checking selector [data-testid='To'] input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:34,474 - INFO - Error checking selector div[aria-label='To'] input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:34,474 - INFO - No fillable element found (attempt 2/3)
+2025-08-20 22:22:36,487 - INFO - Error checking selector input[aria-label='To']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:36,489 - INFO - Error checking selector input[aria-describedby*='To']: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:36,491 - INFO - Error checking selector //input[contains(@aria-label,'To')]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:36,492 - INFO - Error checking selector //input[contains(@placeholder,'Start typing a name')]: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:36,494 - INFO - Error checking selector .ms-BasePicker-input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:36,495 - INFO - Error checking selector [data-testid='To'] input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:36,497 - INFO - Error checking selector div[aria-label='To'] input: Locator.wait_for: Target page, context or browser has been closed
+2025-08-20 22:22:36,497 - INFO - No fillable element found (attempt 3/3)
+2025-08-20 22:22:38,509 - WARNING - Critical step failed: fill to_field
+2025-08-20 22:22:38,509 - WARNING - Task failed to complete
+2025-08-20 22:22:38,511 - ERROR - Task execution failed: Page.screenshot: Target page, context or browser has been closed
